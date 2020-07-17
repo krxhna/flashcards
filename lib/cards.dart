@@ -18,7 +18,7 @@ class cards extends StatelessWidget {
           elevation: 0,
           title: Center(child: Text('Flash Cards')),
         ),
-        body: PageView.builder(git init
+        body: PageView.builder(
           scrollDirection: Axis.vertical,
           itemCount: names.length,
           itemBuilder: (BuildContext context, int index) {
